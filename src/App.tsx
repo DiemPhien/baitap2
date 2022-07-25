@@ -27,7 +27,7 @@ function App() {
         <Route path="/" element={<Header />} >
           <Route path="/" element={<LayOut />} />
           <Route path="/DanhSachVe" element={<DanhSachVe />} />
-          <Route path="/DoiSoatVe" element={<DanhSachGoiVe />} />
+          {/* <Route path="/DoiSoatVe" element={<DanhSachGoiVe />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
